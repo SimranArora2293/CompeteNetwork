@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".load_all_data">
+    <ImageView
+        android:layout_width="120dp"
+        android:src="@mipmap/competition_2"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/img"
+        android:layout_height="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/img"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/name"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/img"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/comp_name"
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/accessibility_custom_action_1"
+        android:layout_below="@id/img"
+        android:layout_marginBottom="10dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:pointerIcon="cell"
+        android:text="  Registeration Deadline:12Aug'21 11:59 PM IST"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/accessibility_custom_action_2"
+        android:layout_below="@id/accessibility_custom_action_1"
+        android:textSize="17dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:text="  25 Jul'21 12:00 PM IST - 20 Aug'21 11:59 PM IST"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/accessibility_custom_action_3"
+        android:layout_below="@id/accessibility_custom_action_2"
+        android:textSize="17dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:text="  Free Registeration"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/accessibility_custom_action_4"
+        android:layout_below="@id/accessibility_custom_action_3"
+        android:textSize="17dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:text="  Individual Participation"
+
+        />
+
+    <Button
+        android:id="@+id/accessibility_custom_action_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:padding="@dimen/cardview_compat_inset_shadow"
+        android:layout_below="@id/accessibility_custom_action_4"
+        android:layout_marginTop="3dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:text="REGISTER"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textStyle="bold"
+        android:layout_marginLeft="77dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="77dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/accessibility_custom_action_5"
+        android:textSize="35dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="......."
+        />
+</RelativeLayout>

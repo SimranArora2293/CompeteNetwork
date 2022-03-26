@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="46.5dp"
+        android:src="@drawable/feedback" />
+
+    <TextView
+        android:id="@+id/texta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/photo"
+        android:layout_marginTop="-30dp"
+        android:gravity="center"
+        android:text="Your opinion matters to us!"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/texts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texta"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="We work super hard and always trying to improve what we do and your feedback in invaluable! "
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/texts"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_star_border_24" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/texts"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/image"
+        android:src="@drawable/ic_baseline_star_border_24" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/texts"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/image1"
+        android:src="@drawable/ic_baseline_star_border_24" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/texts"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/image"
+        android:src="@drawable/ic_baseline_star_border_24" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/texts"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/image3"
+        android:src="@drawable/ic_baseline_star_border_24" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/green"
+        android:text="Submit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submit"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:text="No Thanks"
+        android:textColor="@color/teal_200"
+        android:textSize="14dp" />
+
+
+</RelativeLayout>
